@@ -2,6 +2,9 @@
 1. [Instalar Airflow con docker](#schema1)
 2.  [Inicializar la base de datos y ejecutar airflow](#schema2)
 
+
+[Ref](#schemaref)
+
 <hr>
 <a name='schema1'></a>
 
@@ -24,7 +27,7 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
 
 <hr>
-<a name='schema2 '></a>
+<a name='schema2'></a>
 
 ## 2. Inicializar la base de datos y ejecutar airflow
 - Inicializar la base de datos
@@ -41,10 +44,10 @@ docker-compose up -d
 
 Tanto para el usuario y contraseña poner, airflow
 
-
 <hr>
 <a name='schemaref'></a>
 
+## Ref:
 
 https://www.youtube.com/watch?v=-kdgCWs86zohttps://www.youtube.com/watch?v=-kdgCWs86zo
 
