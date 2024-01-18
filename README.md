@@ -1,6 +1,6 @@
 # 4-Automate-Data-Pipelines
 1. [Instalar Airflow con docker](#schema1)
-2 [Inicializar la base de datos y ejecutar airflow](#schema2)
+2.  [Inicializar la base de datos y ejecutar airflow](#schema2)
 
 <hr>
 <a name='schema1'></a>
