@@ -117,3 +117,5 @@ Al igual que con la tarea, esto no inicia la ejecución del DAG; simplemente cre
 https://www.youtube.com/watch?v=-kdgCWs86zohttps://www.youtube.com/watch?v=-kdgCWs86zo
 
 https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+
+https://airflow.apache.org/docs/apache-airflow/stable/templates-ref.html
