@@ -2,6 +2,7 @@
 1. [Instalar Airflow con docker](#schema1)
 2. [Inicializar la base de datos y ejecutar airflow](#schema2)
 3. [Coniciendo el código del primer DAG](#schema3)
+4. [utilizando Docker para ejecutar Apache Airflow](#schema4)
 
 [Ref](#schemaref)
 
@@ -103,9 +104,30 @@ greet_dag = greet_flow_dag()
 Se invoca el DAG `greet_flow_dag` y se almacena en la variable `greet_dag`. 
 Al igual que con la tarea, esto no inicia la ejecución del DAG; simplemente crea una instancia del DAG.
 
+<hr>
+<a name='schema4'></a>
 
+## 4. utilizando Docker para ejecutar Apache Airflow
 
+Si estás utilizando Docker para ejecutar Apache Airflow, es posible que necesites ejecutar los comandos dentro 
+del contenedor de Docker. Aquí hay una guía paso a paso para ejecutar comandos de Airflow en un contenedor Docker:
 
+- Inicia el contenedor de Docker:
+
+Asegúrate de que tu contenedor de Apache Airflow esté en ejecución. Puedes usar el comando `docker ps` para 
+verificar si está activo.
+
+- Ejecuta comandos dentro del contenedor:
+
+Utiliza el comando docker exec para ejecutar comandos dentro del contenedor de Airflow. La estructura general sería:
+
+```bash
+docker exec -it nombre_del_contenedor_airflow comando_airflow
+```
+Donde:
+
+`nombre_del_contenedor_airflow` es el nombre o el ID del contenedor de Airflow.
+`comando_airflow` es el comando específico de Airflow que deseas ejecutar.
 
 
 
