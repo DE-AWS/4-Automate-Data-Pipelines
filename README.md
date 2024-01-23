@@ -2,10 +2,9 @@
 1. [Instalar Airflow con docker](#schema1)
 2. [Inicializar la base de datos y ejecutar airflow](#schema2)
 3. [Coniciendo el código del primer DAG](#schema3)
-4. [utilizando Docker para ejecutar Apache Airflow](#schema4)
+4. [Utilizando Docker para ejecutar Apache Airflow](#schema4)
 
-[Ref](#schemaref)
-
+5. [Ref](#schemaref)
 <hr>
 <a name='schema1'></a>
 
@@ -107,7 +106,7 @@ Al igual que con la tarea, esto no inicia la ejecución del DAG; simplemente cre
 <hr>
 <a name='schema4'></a>
 
-## 4. utilizando Docker para ejecutar Apache Airflow
+## 4. Utilizando Docker para ejecutar Apache Airflow
 
 Si estás utilizando Docker para ejecutar Apache Airflow, es posible que necesites ejecutar los comandos dentro 
 del contenedor de Docker. Aquí hay una guía paso a paso para ejecutar comandos de Airflow en un contenedor Docker:
@@ -134,7 +133,7 @@ Donde:
 <hr>
 <a name='schemaref'></a>
 
-## Ref:
+## 5. Ref:
 
 https://www.youtube.com/watch?v=-kdgCWs86zohttps://www.youtube.com/watch?v=-kdgCWs86zo
 
